@@ -1,0 +1,36 @@
+body {
+    text-align : center;
+    background-color: #F5FBE6;
+}
+
+h1 {
+    font-size: 50px;
+    background-color: #215E61;
+    color: #F5FBE6;
+    border: solid 2px #F5FBE6;
+    padding: 20px;
+    margin: 2px 450px 0 450px;
+
+}
+
+h3 {
+    font-size: 55px;
+    color: #233D4D;
+
+}
+
+p {
+    font-size: 35px;
+    
+}
+
+div {
+    background-color: #233D4D;
+    color: #F5FBE6;
+    border: solid 2px #F5FBE6;
+    border-radius: 40px;
+}
+
+input {
+    font-size: 17px;
+}
