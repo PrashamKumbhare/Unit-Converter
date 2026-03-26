@@ -42,7 +42,7 @@ function Conv_CM_TO_KM () {
 
    let Value5 = document.getElementById("CM_KM").value ;
 
-   let Final_Conv5 = Value5 / 10000 ;
+   let Final_Conv5 = Value5 / 100000 ;
 
    document.getElementById("output5").innerHTML = Final_Conv5 + " " + "KM" ;
 
@@ -52,9 +52,31 @@ function Conv_KM_TO_CM () {
 
    let Value6 = document.getElementById("KM_CM").value ;
 
-   let Final_Conv6 = Value6 * 10000 ;
+   let Final_Conv6 = Value6 * 100000 ;
 
    document.getElementById("output6").innerHTML = Final_Conv6 + " " + "CM" ;
 
 }
+
+function Conv_G_TO_KG () {
+
+   let Value7 = document.getElementById("G_KG").value ;
+
+   let Final_Conv7 = Value7 / 1000 ;
+
+   document.getElementById("output7").innerHTML = Final_Conv7 + " " + "KG" ;
+
+}
+
+function Conv_KG_TO_G () {
+
+   let Value8 = document.getElementById("KG_G").value ;
+
+   let Final_Conv8 = Value8 * 1000 ;
+
+   document.getElementById("output8").innerHTML = Final_Conv8 + " " + "G" ;
+
+}
+
+
 
